@@ -7,8 +7,6 @@ This application is used to show off the usage of WIA in image applications. It 
 
 The application will only work with bitmap images for saving/loading.
 
-A dissertation has also been included to give background about the encoding theory, and how the format is documented.
-
 A doxygen build has also been added to provide more levels of documentation in the application.
 
 
