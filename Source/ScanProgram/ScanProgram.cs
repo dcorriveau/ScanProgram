@@ -19,10 +19,11 @@ using System.Drawing.Printing;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
+using Stenography;
 using WIA;
 //!\namespace ScanProgram
 //!This namespace is used to link together all of the implementations and functionality found inside of the Scanning Program
-namespace ScanProgram
+namespace Stenography
 {
     //!\class FrmScanProgram
     //!This class is used to define what is found in the form FrmScanProgram.\n

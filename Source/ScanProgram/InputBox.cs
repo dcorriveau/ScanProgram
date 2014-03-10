@@ -14,7 +14,7 @@ using System.Windows.Forms;
 
 //!\namespace ScanProgram
 //!This namespace is used to link together all of the implementations and functionality found inside of the Scanning Program
-namespace ScanProgram
+namespace Stenography
 {
     //!\class InputBox
     //!This class is used to define what is found in the form InputBox. 

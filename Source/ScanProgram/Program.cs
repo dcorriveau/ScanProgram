@@ -10,7 +10,7 @@ using System;
 using System.Windows.Forms;
 //! \namespace ScanProgram
 //! This namespace is used to link together all of the implementations and functionality found inside of the Scanning Program
-namespace ScanProgram
+namespace Stenography
 {
     //! \class Program
     //! This class is used to act as a starting point for the scanning program

@@ -8,21 +8,23 @@
  * using the header information and the bitmap data given.     *
  ***************************************************************/
 //!These various using statements are used to include the necessary features needed to run
+
 using System;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading;
+//!\namespace Stenography
+//!This namespace is used to link together all of the stenography parts together
 using System.Windows.Forms;
-//!\namespace ScanProgram
-//!This namespace is used to link together all of the implementations and functionality found inside of the Scanning Program
-namespace ScanProgram
+
+namespace Stenography
 { 
     //!\class SaveImage
     //!This class is used to define the saving capabilities of the scanning program\n
     //!It defines all bitmap image manipulation used to save to a file
-    internal class SaveImage
+    public class SaveImage
     {
         //!This Double is used as the conversion rate to define how the horizontal and vertical resolution is converted to meters
         public const Double ConversionRate = 39.3700787;

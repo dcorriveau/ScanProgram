@@ -17,9 +17,9 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
 using System.Windows.Forms;
-//!\namespace ScanProgram
-//!This namespace is used to link together all of the implementations and functionality found inside of the Scanning Program
-namespace ScanProgram
+//!\namespace Stenography
+//!This namespace is used to link together all of the stenography parts together
+namespace Stenography
 {
     //!\class Encoder
     //!This class is used to embed text within a bitmap.\n

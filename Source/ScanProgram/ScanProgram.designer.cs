@@ -1,4 +1,4 @@
-﻿namespace ScanProgram
+﻿namespace Stenography
 {
     partial class FrmScanProgram
     {

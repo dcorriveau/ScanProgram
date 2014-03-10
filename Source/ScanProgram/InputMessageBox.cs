@@ -14,7 +14,7 @@ using System.Drawing;
 using System.Windows.Forms;
 //! \namespace ScanProgram
 //! This namespace is used to link together all of the implementations and functionality found inside of the Scanning Program
-namespace ScanProgram
+namespace Stenography
 {
     //! \class InputMessageBox
     //! This class is used to act as an input box for encoding strings
