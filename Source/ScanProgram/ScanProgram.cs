@@ -645,26 +645,4 @@ namespace Stenography
             }
         }
     }
-    /*!\class DefaultandErrorStrings
-      *This public class is used to contain the strings that describe any error messages, 
-      *or default text strings used in the program*/
-    public class DefaultandErrorStrings
-    {
-        //!this string is used to set the filter used for the opening of files
-        public const String Bitmaps = "Bitmap File (*.bmp)|*.bmp";
-        //!this string is used in conjunction with a scanning error
-        public const String ErrorScan = "An Error occured when scanning! ";
-        //!this string is used to say that no device has been found
-        public const String NoDevices = "No Devices Found! Please check your devices and try again";
-        //!this string is used to say that no device has been selected
-        public const String NoDeviceSelected = "No Device Selected! Please select a device and try again";
-        //!this string is used to say that no image has been found
-        public const String NoImage = "No Image Found! Please Select an Image";
-        //!this string is used to ask if the user wants to leave
-        public const String Leave = "Are you sure you want to leave?";
-        //!this string is used to inform the user when they do not have a proper unit amount
-        public const String Unit = "Invalid Units, Please Enter a proper unit";
-        //!this string is used to inform the user if the save was successful
-        public const String Save = "The save was successful!";
-    }
 }

@@ -24,7 +24,7 @@ namespace Stenography
     //!\class Encoder
     //!This class is used to embed text within a bitmap.\n
     //!It does this by altering the Alpha value within the image\n
-    class Encoder
+    public class Encoder
     {
         //this byte[] is used as a key for the cryptography applied
         public static byte[] ByteKey = new byte[] { 0x27, 0x36, 0x68, 0x75, 0x45, 0x46, 0x79, 0x48, 0x31, 
@@ -32,7 +32,8 @@ namespace Stenography
         /*!static Bitmap EncodeMessage(Bitmap bmp,String filename)\n
          *!This method is used to take a bitmap, and encrypt/embed a message into the bitmap\n
          *!\return This function either returns null for error, or the new bitmap*/
-        internal static Bitmap EncodeMessage(Bitmap bmp,String filename)
+
+        public static Bitmap EncodeMessage(Bitmap bmp,String filename)
         {
             Bitmap returnValue=null;
             //we first get the date, and place it in the string

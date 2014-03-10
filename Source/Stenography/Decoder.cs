@@ -23,13 +23,13 @@ namespace Stenography
     //!\class Decoder
     //!This class is used get embedded text from a bitmap.\n
     //!It does this by reading the Alpha value within the image\n
-    internal class Decoder
+    public class Decoder
     {
         /*!static String[] DecodeMessage(Bitmap bmp)\n
          *!This method is used to take a bitmap, and decrypt a message from the bitmap\n
          *!\return This function either returns null for error, or the information read*/
 
-        internal static String[] DecodeMessage(Bitmap bmp)
+        public static String[] DecodeMessage(Bitmap bmp)
         {
             String[] returnValue = null;
             //lock bits into memory
